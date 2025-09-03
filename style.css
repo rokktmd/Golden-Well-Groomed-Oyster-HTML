@@ -154,6 +154,16 @@
   padding: 20px;              /* po želji dodaten padding */
 }
 
+.contact4-contact20.thq-section-padding {
+  display: flex;
+  flex-direction: column;     /* če hočeš, da se vsebina znotraj drži vertikalno */
+  justify-content: center;    /* centriranje vsebine znotraj div-a vertikalno */
+  align-items: center;        /* centriranje vsebine horizontalno */
+  width: 100%;                /* po želji, ali max-width nastavi */
+  max-width: 1200px;          /* omeji širino za lep izgled */
+  box-sizing: border-box;
+}
+
 .thq-button-outline:hover {
   fill: var(--dl-color-theme-secondary2);
   color: var(--dl-color-theme-secondary2);
