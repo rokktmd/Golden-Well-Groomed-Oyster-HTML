@@ -144,7 +144,16 @@
   padding-bottom: var(--dl-layout-space-halfunit);
   justify-content: center;
 }
- 
+
+.contact4-wrapper {
+  display: flex;              /* omogoča flex layout */
+  justify-content: center;    /* centriraj horizontalno */
+  align-items: center;        /* centriraj vertikalno */
+  min-height: 100vh;          /* element pokrije celotno višino strani */
+  box-sizing: border-box;     
+  padding: 20px;              /* po želji dodaten padding */
+}
+
 .thq-button-outline:hover {
   fill: var(--dl-color-theme-secondary2);
   color: var(--dl-color-theme-secondary2);
